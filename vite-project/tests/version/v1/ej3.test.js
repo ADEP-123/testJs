@@ -6,4 +6,9 @@ describe("test del archivo user.js", () => {
         expect(typeof app).toBe("number")
     })
 
+    test('la funcion algoritmo devuelve la multiplicacion de la intensidad por la resistencia', () => {
+        let resultado = algoritmo(1,2);
+        expect(resultado).toBe(2)
+    })
+
 })
