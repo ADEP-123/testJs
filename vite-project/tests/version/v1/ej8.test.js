@@ -1,6 +1,6 @@
 import { algoritmo } from "../../../version/v1/ej8";
 
-describe("test ejercicio 7", () => {
+describe("test ejercicio 8", () => {
     test('la funcion algoritmo devuelve un string', () => {
         let resultado = algoritmo(1, 10700, 5);
         expect(typeof resultado).toBe("string")
